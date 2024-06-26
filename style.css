@@ -1,0 +1,27 @@
+body {
+      background-color: #191919; /* ページ全体の背景色を灰色に指定 */
+      font-family: 'Arial', sans-serif;
+      margin: 0; /* ページのマージンをゼロに設定 */
+      padding: 0; /* ページのパディングをゼロに設定 */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column; /* コンテンツを縦方向に配置 */
+    }
+
+#clock, #date {
+      font-family: 'Mickey', sans-serif; /* 'Arial' 'JetBrains Mono' */
+      text-align: center;
+      color: white;
+      /* margin-top: 20%; */
+      margin-bottom: 20px; /* 時計と日付の間に余白を追加 */
+    }
+
+#date{
+  font-size: 1.5rem;
+}
+
+#clock {
+  font-size: 3rem;
+}
