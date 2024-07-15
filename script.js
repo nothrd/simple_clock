@@ -9,7 +9,7 @@ function updateClock() {
   var year = now.getFullYear(); // 年を取得
   var month = (now.getMonth() + 1).toString().padStart(2, '0'); // 月を取得（0始まりのため +1）
   var day = now.getDate().toString().padStart(2, '0'); // 日を取得
-  var dateString = year + '-' + month + '-' + day;
+  var dateString = year + '/' + month + '/' + day;
   document.getElementById('date').textContent = dateString; // 日付を表示する要素にセット
 }
 
